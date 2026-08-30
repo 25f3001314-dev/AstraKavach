@@ -16,6 +16,12 @@ Traditional-first, LLM-last: a closed loop that proves itself.
 * **Static Analysis:** Clang SA, Bandit, Semgrep, Joern
 * **LLM:** Quantized Qwen (Offline Inference)
 
+## Architecture
+![Architecture Diagram](Architecture%20diagram.png)
+
+## Execution Workflow
+![AstraKavach Workflow Sequence](automated-pipeline-flow.png)
+
 ## Research & References
 The ASTRAKAVACH framework builds upon established research in automated vulnerability detection, fuzzing, and large language models:
 
@@ -30,5 +36,3 @@ The ASTRAKAVACH framework builds upon established research in automated vulnerab
   * Common Weakness Enumeration (CWE) and MITRE ATT&CK frameworks for mapping and templates.
 * **Offline LLM Inference:** 
   * [Qwen](https://github.com/QwenLM/Qwen): Used as a quantized, offline model for secure, air-gapped candidate patch generation.
-
-*Note: This repository currently holds the architectural framework and conceptual presentation for the qualifier phase.*
